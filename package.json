@@ -1,18 +1,19 @@
 {
-  "name": "simulated-device",
-  "version": "1.0.0",
-  "description": "simulated device for IoT Hub",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "azure-iot-device": "^1.4.0",
-    "azure-iot-device-mqtt": "^1.4.0",
-    "dotenv": "^5.0.1",
-    "moment": "^2.21.0",
-    "uuid": "^3.2.1"
-  }
+    "name": "simulated-device",
+    "version": "1.0.0",
+    "description": "simulated device for IoT Hub",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "azure-iot-device": "^1.4.0",
+        "azure-iot-device-mqtt": "^1.4.0",
+        "dotenv": "^5.0.1",
+        "moment": "^2.21.0",
+        "uuid": "^3.2.1"
+    }
 }
