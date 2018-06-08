@@ -1,19 +1,22 @@
 {
     "name": "simulated-device",
     "version": "1.0.0",
-    "description": "simulated device for IoT Hub",
-    "main": "app.js",
+    "description": "Simulated devices for IoT Hub",
+    "main": "sensor.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node app.js"
+        "start": "nodemon sensor.js",
+        "sensor": "nodemon sensor.js",
+        "gate": "nodemon gate.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "",
+    "author": "sakkuru",
     "license": "ISC",
     "dependencies": {
         "azure-iot-device": "^1.4.0",
         "azure-iot-device-mqtt": "^1.4.0",
         "dotenv": "^5.0.1",
         "moment": "^2.21.0",
+        "nodemon": "^1.17.5",
         "uuid": "^3.2.1"
     }
 }
